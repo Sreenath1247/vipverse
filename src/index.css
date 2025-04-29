@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+body {
+  @apply bg-slate-950; /* Replace 'bg-gray-100' with your desired background color */
+}
