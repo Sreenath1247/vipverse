@@ -5,7 +5,6 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "server": "cd src/api && npm start",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
