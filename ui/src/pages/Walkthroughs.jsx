@@ -2,7 +2,7 @@ import React from 'react'
 
 const Walkthroughs = () => {
   return (
-    <div>Walkthroughs</div>
+    <div className='text-white'>Walkthroughs</div>
   )
 }
 

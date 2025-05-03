@@ -2,7 +2,7 @@ import React from 'react'
 
 const Upcoming = () => {
   return (
-    <div>Upcoming</div>
+    <div className='text-white'>Upcoming</div>
   )
 }
 
