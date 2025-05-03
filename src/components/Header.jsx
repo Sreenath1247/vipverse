@@ -1,22 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../assets/images/logo.png";
-import { Input, InputAdornment } from "@mui/material";
+import { Input, InputAdornment, IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import CloseIcon from "@mui/icons-material/Close";
 import useGameStore from "../store/useStore";
 
 const Header = () => {
 
   const { searchGames,getGameList } = useGameStore();
+  const [searchValue, setSearchValue] = useState("");
 
   const handleSearch = async (event) => {
-    const searchValue = event.target.value.toLowerCase();
-    if (searchValue) {
-      await searchGames(searchValue);
+    const value = event.target.value.toLowerCase();
+    setSearchValue(value);
+    if (value) {
+      await searchGames(value);
     }
     else {
       await getGameList();
     }
   }
+
+  const clearSearch = async () => {
+    setSearchValue("");
+    await getGameList();
+  };
 
   return (
     <div className="flex w-full h-full mt-5 justify-center items-center flex-row">
@@ -32,6 +40,7 @@ const Header = () => {
           id="search-input"
           placeholder="Search"
           disableUnderline
+          value={searchValue}
           onChange={handleSearch}
           sx={{
             width: "100%",
@@ -55,6 +64,15 @@ const Header = () => {
             <InputAdornment position="start">
               <SearchIcon className="text-white" fontSize="small" />
             </InputAdornment>
+          }
+          endAdornment={
+            searchValue && (
+              <InputAdornment position="end">
+                <IconButton onClick={clearSearch} size="small">
+                  <CloseIcon className="text-white" fontSize="small" />
+                </IconButton>
+              </InputAdornment>
+            )
           }
         />
       </div>
