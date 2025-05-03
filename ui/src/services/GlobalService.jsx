@@ -1,6 +1,5 @@
 import axios from "axios";
 
-const key = "f1dfa976cd47419baeb97f2d9f42ec02"; // Replace with your actual API key
 const axiosCreate = axios.create({
   baseURL: "http://localhost:3000/api",
 });
