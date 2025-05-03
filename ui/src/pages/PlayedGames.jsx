@@ -1,5 +1,5 @@
 import React, { use, useEffect, useState } from 'react'
-import GameList from '../components/GameList';
+import GameList from './GameList';
 import useGameStore from '../store/useStore';
 import Loader from '../components/Loader';
 
