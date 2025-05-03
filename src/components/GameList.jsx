@@ -4,13 +4,13 @@ const GameList = ({ gameList }) => {
   return (
     <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 p-2">
       {gameList.map((game, index) => (
-        <div key={index}>
+        <div key={index} className="hover:cursor-pointer ">
           <div
             key={index}
-            className="flex flex-col items-center justify-center bg-gray-800 rounded-lg shadow-lg w-[250px] h-[350px]"
+            className="flex flex-col items-center justify-center bg-gray-800 rounded-lg shadow-lg w-[250px] h-[350px] hover:brightness-120 transition duration-300"
           >
             <img
-              src={game.background_image}
+              src={game.image}
               alt={game.name}
               className="w-full h-full object-cover rounded-lg"
             />

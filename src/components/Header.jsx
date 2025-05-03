@@ -2,8 +2,22 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import { Input, InputAdornment } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
+import useGameStore from "../store/useStore";
 
 const Header = () => {
+
+  const { searchGames,getGameList } = useGameStore();
+
+  const handleSearch = async (event) => {
+    const searchValue = event.target.value.toLowerCase();
+    if (searchValue) {
+      await searchGames(searchValue);
+    }
+    else {
+      await getGameList();
+    }
+  }
+
   return (
     <div className="flex w-full h-full mt-5 justify-center items-center flex-row">
       <div className="flex flex-col items-center h-full w-60">
@@ -18,6 +32,7 @@ const Header = () => {
           id="search-input"
           placeholder="Search"
           disableUnderline
+          onChange={handleSearch}
           sx={{
             width: "100%",
             color: "#fff",
