@@ -23,7 +23,7 @@ const PlayedGames = () => {
   }, []);
     
   return (
-    <div className='grid h-full w-full justify-center items-center'>
+    <div className='grid h-full w-full justify-center'>
       {loading && <Loader />}
       {gameList?.length > 0 && <GameList gameList={gameList}/>}
     </div>

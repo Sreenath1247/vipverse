@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
 body {
-  @apply bg-slate-950; /* Replace 'bg-gray-100' with your desired background color */
+  @apply bg-slate-950;
+  width: 100%; /* Ensure the body spans the full width of the viewport */
+  max-width: 1920px; /* Set the maximum width */
+  margin: 0 auto; /* Center the body horizontally */
+  min-height: 100vh;
 }
