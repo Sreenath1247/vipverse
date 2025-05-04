@@ -1,7 +1,7 @@
-import React, { use, useEffect, useState } from 'react'
-import GameList from './GameList';
-import useGameStore from '../store/useStore';
-import Loader from '../components/Loader';
+import React, { use, useEffect, useState } from "react";
+import GameList from "./GameList";
+import useGameStore from "../store/useStore";
+import Loader from "../components/Loader";
 
 const PlayedGames = () => {
   const { gameList, getGameList } = useGameStore();
@@ -21,13 +21,13 @@ const PlayedGames = () => {
 
     fetchData();
   }, []);
-    
-  return (
-    <div className='grid h-full w-full justify-center'>
-      {loading && <Loader />}
-      {gameList?.length > 0 && <GameList gameList={gameList}/>}
-    </div>
-  )
-}
 
-export default PlayedGames
+  return (
+    <div className="grid h-full w-full justify-center lg:p-0 md:px-25 sm:px-12 px-5 pb-5">
+      {loading && <Loader />}
+      {gameList?.length > 0 && <GameList gameList={gameList} />}
+    </div>
+  );
+};
+
+export default PlayedGames;

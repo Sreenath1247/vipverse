@@ -2,12 +2,10 @@ import React from "react";
 
 const GameList = ({ gameList }) => {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-4 sm:gap-6">
+    <div className="grid grid-cols-1 gap-4 sm:gap-6 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
       {gameList.map((game, index) => (
-        <div key={index} className="hover:cursor-pointer">
-          <div
-            className="flex flex-col items-center justify-center bg-gray-800 rounded-lg shadow-lg w-full h-[350px] hover:brightness-110 transition duration-300"
-          >
+        <div key={index} className="hover:cursor-pointer transform transition-transform duration-300 hover:scale-105">
+          <div className="flex flex-col items-center justify-center bg-gray-800 rounded-lg shadow-lg w-full h-[350px]">
             <img
               src={game.image}
               alt={game.name}

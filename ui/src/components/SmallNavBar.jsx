@@ -1,32 +1,36 @@
-import * as React from "react";
-import Box from "@mui/material/Box";
+import React from "react";
+import { IconButton } from "@mui/material";
+import CloseIcon from "@mui/icons-material/Close";
 import { NavLink } from "react-router-dom";
 
-export default function VerticalTabs({ setIsNavBarVisible }) {
+const SmallNavBar = ({ closeNavBar }) => {
   return (
-    <Box
-      className="h-screen bg-slate-950 flex flex-col"
-      sx={{ flexGrow: 1, display: "flex" }}
+    <div
+      className="absolute top-16 right-4 bg-slate-900 text-white shadow-lg z-50 rounded-lg"
+      style={{ width: "200px" }}
     >
-      <nav>
-        <ul>
-          <li>
-            <NavLink
-              to="/"
-              onClick={() => setIsNavBarVisible(false)}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-md text-white font-bold transition duration-500"
-                  : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
-              }
-            >
-              HOME
-            </NavLink>
-          </li>
-          <li className="mt-5">
+      <div className="flex flex-col p-4">
+        <div className="flex items-center justify-between">
+          <NavLink
+            to="/"
+            onClick={closeNavBar}
+            className={({ isActive }) =>
+              isActive
+                ? "text-md text-white font-bold transition duration-500"
+                : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
+            }
+          >
+            HOME
+          </NavLink>
+          <IconButton onClick={closeNavBar} size="small">
+            <CloseIcon className="text-white" />
+          </IconButton>
+        </div>
+        <ul className="flex flex-col space-y-4 mt-3">
+          <li className="">
             <NavLink
               to="/playedgames"
-              onClick={() => setIsNavBarVisible(false)}
+              onClick={closeNavBar}
               className={({ isActive }) =>
                 isActive
                   ? "text-md text-white font-bold transition duration-500"
@@ -36,10 +40,10 @@ export default function VerticalTabs({ setIsNavBarVisible }) {
               PLAYED GAMES
             </NavLink>
           </li>
-          <li className="mt-5">
+          <li className="">
             <NavLink
               to="/upcoming"
-              onClick={() => setIsNavBarVisible(false)}
+              onClick={closeNavBar}
               className={({ isActive }) =>
                 isActive
                   ? "text-md text-white font-bold transition duration-500"
@@ -49,10 +53,10 @@ export default function VerticalTabs({ setIsNavBarVisible }) {
               UPCOMING
             </NavLink>
           </li>
-          <li className="mt-5">
+          <li className="">
             <NavLink
               to="/walkthroughs"
-              onClick={() => setIsNavBarVisible(false)}
+              onClick={closeNavBar}
               className={({ isActive }) =>
                 isActive
                   ? "text-md text-white font-bold transition duration-500"
@@ -63,7 +67,9 @@ export default function VerticalTabs({ setIsNavBarVisible }) {
             </NavLink>
           </li>
         </ul>
-      </nav>
-    </Box>
+      </div>
+    </div>
   );
-}
+};
+
+export default SmallNavBar;
