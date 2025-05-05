@@ -3,6 +3,7 @@ import GlobalService from "../services/GlobalService";
 
 const useGameStore = create((set) => ({
   gameList: [],
+  gameImages: [],
   allGames: [],
   platforms: [],
   loading: false,
@@ -19,6 +20,10 @@ const useGameStore = create((set) => ({
   searchAllGames: async (page, searchText) => {
     const response = await GlobalService.searchAllGames(page, searchText);
     set({ allGames: response.data.results });
+  },
+  getGameImages: async () => {
+    const response = await GlobalService.getGameImages();
+    set({ gameImages: response.data });
   },
   getGameList: async () => {
     const response = await GlobalService.getGamesList();

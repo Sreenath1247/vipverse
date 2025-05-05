@@ -11,16 +11,6 @@ const axiosRawg = axios.create({
   },
 });
 
-const getPlatforms = async () => {
-  try {
-    const response = await axiosRawg.get("/platforms");
-    return response;
-  } catch (error) {
-    console.error("Error fetching platforms:", error);
-    throw error;
-  }
-}
-
 const getAllGames = async (page) => {
   try {
     const response = await axiosRawg.get("/games", {
@@ -41,6 +31,16 @@ const searchAllGames = async (searchText) => {
     return response;
   } catch (error) {
     console.error("Error fetching all games:", error);
+    throw error;
+  }
+};
+
+const getGameImages = async () => {
+  try {
+    const response = await axiosCreate.get(`/gamelist/images`);
+    return response;
+  } catch (error) {
+    console.error("Error fetching game images:", error);
     throw error;
   }
 };
@@ -68,9 +68,9 @@ const searchGames = async (query) => {
 };
 
 export default {
-  getPlatforms,
   getAllGames,
   searchAllGames,
+  getGameImages,
   getGamesList,
   searchGames,
 };
