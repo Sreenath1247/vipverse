@@ -4,8 +4,7 @@ import useGameStore from "../store/useStore";
 import Loader from "../components/Loader";
 
 const PlayedGames = () => {
-  const { gameList, getGameList } = useGameStore();
-  const [loading, setLoading] = useState(true);
+  const { gameList, getGameList, loading, setLoading  } = useGameStore();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -23,7 +22,7 @@ const PlayedGames = () => {
   }, []);
 
   return (
-    <div className="grid h-full w-full justify-center lg:p-0 md:px-25 sm:px-12 px-5 pb-5">
+    <div className="grid h-full w-full justify-center lg:px-0 lg:pb-5 md:px-25 sm:px-12 px-5 pb-5">
       {loading && <Loader />}
       {gameList?.length > 0 && <GameList gameList={gameList} />}
     </div>
