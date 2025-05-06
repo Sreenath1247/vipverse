@@ -63,8 +63,6 @@ const Library = () => {
     });
   };
 
-  console.log(allGames)
-
   return (
     <div className="h-full flex flex-col">
       <header className="fixed top-0 left-0 w-full lg:h-28 md:h-15 h-15 z-50 bg-slate-950">

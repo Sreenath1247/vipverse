@@ -4,8 +4,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import PlayedGames from "./pages/PlayedGames";
 import Upcoming from "./pages/Upcoming";
-import Walkthroughs from "./pages/Walkthroughs";
+import Playlist from "./pages/Playlist";
 import Library from "./pages/Library";
+import About from "./pages/About";
 
 const App = () => {
   return (
@@ -15,7 +16,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/playedgames" element={<PlayedGames />} />
           <Route path="/upcoming" element={<Upcoming />} />
-          <Route path="/walkthroughs" element={<Walkthroughs />} />
+          <Route path="/playlists" element={<Playlist />} />
+          <Route path="/about" element={<About />} />
         </Route>
         <Route path="/library" element={<Library />} />
       </Routes>

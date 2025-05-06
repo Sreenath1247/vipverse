@@ -80,7 +80,7 @@ const SmallNavBar = ({ closeNavBar }) => {
           </li>
           <li className="">
             <NavLink
-              to="/walkthroughs"
+              to="/playlists"
               onClick={closeNavBar}
               className={({ isActive }) =>
                 isActive
@@ -88,7 +88,20 @@ const SmallNavBar = ({ closeNavBar }) => {
                   : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
               }
             >
-              WALKTHROUGHS
+              PLAYLISTS
+            </NavLink>
+          </li>
+          <li className="">
+            <NavLink
+              to="/about"
+              onClick={closeNavBar}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-md text-white font-bold transition duration-500"
+                  : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
+              }
+            >
+              ABOUT
             </NavLink>
           </li>
           <li className="">

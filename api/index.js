@@ -47,13 +47,22 @@ async function init() {
     password: supabasePassword,
   });
   token = data.session?.access_token;
-  supabase = createClient(supabaseUrl, supabaseKey, {
+  const options = {
+    db: {
+      schema: 'public',
+    },
+    auth: {
+      autoRefreshToken: true,
+      persistSession: true,
+      detectSessionInUrl: true
+    },
     global: {
       headers: {
         Authorization: `Bearer ${data.session?.access_token}`,
       },
     },
-  });
+  }
+  supabase = createClient(supabaseUrl, supabaseKey, options);
   if (error) {
     return res.status(401).json({ error: error.message });
   }
