@@ -19,7 +19,7 @@ const useGameStore = create((set) => ({
   setAllGames: (allGames) => set({ allGames }),
   searchAllGames: async (page, searchText) => {
     const response = await GlobalService.searchAllGames(page, searchText);
-    set({ allGames: response.data.results });
+    set({ allGames: response.data });
   },
   getGameImages: async () => {
     const response = await GlobalService.getGameImages();

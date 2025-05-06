@@ -65,15 +65,20 @@ const Header = () => {
 
   const clearSearch = async () => {
     setSearchValue("");
-    await getGameList();
+    if (window.location.href.includes("/playedgames")) {
+      await getGameList();
+    }
+    if (window.location.href.includes("/library")) {
+      await getAllGames();
+    }
   };
 
   const toggleNavBar = () => {
-    setIsNavBarVisible((prev) => !prev); 
+    setIsNavBarVisible((prev) => !prev);
   };
 
   const closeNavBar = () => {
-    setIsNavBarVisible(false); 
+    setIsNavBarVisible(false);
   };
 
   console.log();
@@ -103,13 +108,13 @@ const Header = () => {
               fontSize: "14px",
               "&:hover": {
                 color: "#fff",
-                backgroundColor: "#334155", 
+                backgroundColor: "#334155",
                 outline: "none",
-                borderRadius: "9999px", 
+                borderRadius: "9999px",
               },
               "&:focus-within": {
                 color: "#fff",
-                backgroundColor: "#334155", 
+                backgroundColor: "#334155",
                 outline: "none",
                 borderRadius: "9999px",
               },

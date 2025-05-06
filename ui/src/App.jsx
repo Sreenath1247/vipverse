@@ -9,9 +9,9 @@ import Library from "./pages/Library";
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Routes>
-        <Route element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/playedgames" element={<PlayedGames />} />
           <Route path="/upcoming" element={<Upcoming />} />
@@ -19,7 +19,7 @@ const App = () => {
         </Route>
         <Route path="/library" element={<Library />} />
       </Routes>
-    </div>
+    </Router>
   );
 };
 

@@ -10,13 +10,54 @@ dotenv.config();
 // Initialize Supabase client
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
-const supabase = createClient(supabaseUrl, supabaseKey);
+const supabaseEmail = process.env.SUPABASE_EMAIL;
+const supabasePassword = process.env.SUPABASE_PASSWORD;
+var supabase = createClient(supabaseUrl, supabaseKey);
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
 // Routes
+var token = "";
+//supabase intialization
+app.post("/api/login", async (req, res) => {
+  const { email, password } = req.body;
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email,
+    password,
+  });
+  token = data.session?.access_token;
+  supabase = createClient(supabaseUrl, supabaseKey, {
+    global: {
+      headers: {
+        Authorization: `Bearer ${data.session?.access_token}`,
+      },
+    },
+  });
+  if (error) {
+    return res.status(401).json({ error: error.message });
+  }
+  res.json({ data });
+});
+
+async function init() {
+  const { data, error } = await supabase.auth.signInWithPassword({
+    email: supabaseEmail,
+    password: supabasePassword,
+  });
+  token = data.session?.access_token;
+  supabase = createClient(supabaseUrl, supabaseKey, {
+    global: {
+      headers: {
+        Authorization: `Bearer ${data.session?.access_token}`,
+      },
+    },
+  });
+  if (error) {
+    return res.status(401).json({ error: error.message });
+  }
+}
 
 //get game list
 app.get("/api/gamelist", async (req, res) => {
@@ -33,9 +74,13 @@ app.get("/api/gamelist", async (req, res) => {
 //get game images
 app.get("/api/gamelist/images", async (req, res) => {
   try {
-    let { data, error } = await supabase.from("gameinfo").select("image");
+    let { data, error } = await supabase
+      .from("gameimages")
+      .select("name,image");
     if (error) throw error;
-    res.status(200).json(data?.map((item) => item.image));
+    res
+      .status(200)
+      .json(data.map((item) => ({ name: item.name, image: item.image })));
   } catch (error) {
     console.error("Error fetching game images:", error.message);
     res.status(500).json({ error: "Error fetching game images" });
@@ -61,4 +106,5 @@ app.get("/api/search", async (req, res) => {
 // Start server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
+  init();
 });
