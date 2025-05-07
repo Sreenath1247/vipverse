@@ -11,6 +11,7 @@ const axiosRawg = axios.create({
   },
 });
 
+//RAWG calls
 const getAllGames = async (page) => {
   try {
     const response = await axiosRawg.get("/games", {
@@ -22,7 +23,6 @@ const getAllGames = async (page) => {
     throw error;
   }
 };
-
 const searchAllGames = async (searchText) => {
   try {
     const response = await axiosRawg.get("/games", {
@@ -35,6 +35,7 @@ const searchAllGames = async (searchText) => {
   }
 };
 
+//Supabase calls
 const getGameImages = async () => {
   try {
     const response = await axiosCreate.get(`/gamelist/images`);
@@ -44,7 +45,6 @@ const getGameImages = async () => {
     throw error;
   }
 };
-
 const getGamesList = async () => {
   try {
     const response = await axiosCreate.get("/gamelist");
@@ -54,7 +54,6 @@ const getGamesList = async () => {
     throw error;
   }
 };
-
 const searchGames = async (query) => {
   try {
     const response = await axiosCreate.get("/search", {
@@ -66,6 +65,15 @@ const searchGames = async (query) => {
     throw error;
   }
 };
+const getUpcomingGames = async () => {
+  try {
+    const response = await axiosCreate.get("/upcoming");
+    return response;
+  } catch (error) {
+    console.error("Error fetching games list:", error);
+    throw error;
+  }
+};
 
 export default {
   getAllGames,
@@ -73,4 +81,5 @@ export default {
   getGameImages,
   getGamesList,
   searchGames,
+  getUpcomingGames,
 };

@@ -75,8 +75,8 @@ app.get("/api/gamelist", async (req, res) => {
     if (error) throw error;
     res.status(200).json(data);
   } catch (error) {
-    console.error("Error fetching dinosaurs:", error.message);
-    res.status(500).json({ error: "Error fetching dinosaurs" });
+    console.error("Error fetching games list:", error.message);
+    res.status(500).json({ error: "Error fetching games list" });
   }
 });
 
@@ -111,6 +111,17 @@ app.get("/api/search", async (req, res) => {
     res.status(500).json({ error: "Error searching games" });
   }
 });
+
+app.get("/api/upcoming", async (req,res) => {
+  try {
+    let { data,error} = await supabase.from("upcoming").select("*");
+    if(error) throw error;
+    res.status(200).json(data);
+  } catch(error) {
+    console.error("Error fetching upcoming games:", error.message);
+    res.status(500).json({ error: "Error fetching upcoming games" });
+  }
+})
 
 // Start server
 app.listen(port, () => {

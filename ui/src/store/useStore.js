@@ -5,13 +5,9 @@ const useGameStore = create((set) => ({
   gameList: [],
   gameImages: [],
   allGames: [],
-  platforms: [],
+  upcomingList: [],
   loading: false,
   setLoading: (loading) => set({ loading }),
-  getPlatforms: async () => {
-    const response = await GlobalService.getPlatforms();
-    set({ platforms: response.data });
-  },
   getAllGames: async (page) => {
     const response = await GlobalService.getAllGames(page);
     set({ allGames: response.data });
@@ -32,6 +28,10 @@ const useGameStore = create((set) => ({
   searchGames: async (query) => {
     const response = await GlobalService.searchGames(query);
     set({ gameList: response.data });
+  },
+  getUpcomingGames: async () => {
+    const response = await GlobalService.getUpcomingGames();
+    set({ upcomingList: response.data });
   },
 }));
 
