@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import useGameStore from "../store/useStore";
 import Loader from "../components/Loader";
+import PlayArrowIcon from "@mui/icons-material/PlayArrow";
 
 const Playlist = () => {
   const { playlists, getPlaylists, loading, setLoading } = useGameStore();
@@ -31,16 +32,17 @@ const Playlist = () => {
             </p>
             <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-7">
               {game.playlists.map((item, index) => (
-                <div key={index} className="group">
+                <div key={index} className="group relative">
                   <div className="flex flex-col justify-center rounded-lg shadow-lg w-full h-30 group-hover:cursor-pointer group-hover:brightness-50">
                     <img
                       src={item.image}
                       alt={item.name}
                       className="w-full h-full object-cover rounded-lg"
                     />
-                    <div className="hidden group-hover:block group-hover:cursor-pointer absolute top-[50%] left-[30%]">
-                      <button className="text-white">Play all</button>
-                    </div>
+                  </div>
+                  <div className="hidden group-hover:block group-hover:cursor-pointer absolute top-[30%] left-[30%]">
+                    <PlayArrowIcon className="mr-1" />
+                    <button className="">Play all</button>
                   </div>
                   <h2 className="text-white text-sm font-bold mt-2 text-left w-full group-hover:cursor-pointer">
                     {item.name}
