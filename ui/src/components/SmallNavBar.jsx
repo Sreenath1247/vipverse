@@ -17,7 +17,7 @@ const SmallNavBar = ({ closeNavBar }) => {
   mediaQueryList.addEventListener("change", (event) => {
     if (!event.matches) {
       closeNavBar();
-    } 
+    }
   });
 
   useEffect(() => {
@@ -27,7 +27,6 @@ const SmallNavBar = ({ closeNavBar }) => {
     };
   }, []);
 
-  
   return (
     <div
       className="absolute top-16 right-4 bg-slate-900 text-white shadow-lg z-50 rounded-lg lg:hidden"
@@ -52,6 +51,19 @@ const SmallNavBar = ({ closeNavBar }) => {
           </IconButton>
         </div>
         <ul className="flex flex-col space-y-4 mt-3">
+          <li className="">
+            <NavLink
+              to="/allgames"
+              onClick={closeNavBar}
+              className={({ isActive }) =>
+                isActive
+                  ? "text-md text-white font-bold transition duration-500"
+                  : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
+              }
+            >
+              ALL GAMES
+            </NavLink>
+          </li>
           <li className="">
             <NavLink
               to="/playedgames"
@@ -102,19 +114,6 @@ const SmallNavBar = ({ closeNavBar }) => {
               }
             >
               ABOUT
-            </NavLink>
-          </li>
-          <li className="">
-            <NavLink
-              to="/library"
-              onClick={closeNavBar}
-              className={({ isActive }) =>
-                isActive
-                  ? "text-md text-white font-bold transition duration-500"
-                  : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
-              }
-            >
-              LIBRARY
             </NavLink>
           </li>
         </ul>

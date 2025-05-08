@@ -25,7 +25,7 @@ const Upcoming = () => {
   return (
     <div className="lg:px-0 md:px-25 sm:px-12 px-5 mb-5 text-white">
       {loading && <Loader />}
-      <p className="text-white lg:text-5xl text-4xl font-extrabold tracking-[0.1em] mb-5 lg:text-left sm:text-center text-center">
+      <p className="text-white lg:text-5xl text-3xl font-extrabold tracking-[0.1em] mb-5 lg:text-left sm:text-center text-center">
         Upcoming releases - 2025
       </p>
       {upcomingList?.length > 0 && <Calendar list={upcomingList} />}

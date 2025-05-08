@@ -4,7 +4,7 @@ import useGameStore from "../store/useStore";
 import Loader from "../components/Loader";
 import axios from "axios";
 
-const Library = () => {
+const Allgames = () => {
   const { allGames, getAllGames, setAllGames, loading, setLoading } =
     useGameStore();
   const [page, setPage] = useState(1);
@@ -145,4 +145,4 @@ const Library = () => {
   );
 };
 
-export default Library;
+export default Allgames;

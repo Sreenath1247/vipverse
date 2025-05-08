@@ -137,14 +137,14 @@ const Header = () => {
         </div>
         <div className="flex flex-row space-x-2">
           <NavLink
-            to="/library"
+            to="/allgames"
             className={({ isActive }) =>
               isActive
                 ? "lg:block hidden text-md text-white font-bold transition duration-500"
                 : "lg:block hidden text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
             }
           >
-            Library
+            Games
           </NavLink>
           <div className="md:block lg:hidden">
             <IconButton sx={{ padding: 0 }} onClick={toggleNavBar}>

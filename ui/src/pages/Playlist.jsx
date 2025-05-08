@@ -24,13 +24,14 @@ const Playlist = () => {
   return (
     <div className="lg:px-0 md:px-25 sm:px-12 px-5 mb-5 text-white">
       {loading && <Loader />}
+      <p className="text-white lg:hidden text-3xl font-extrabold tracking-[0.1em] mb-5 text-center">Playlists</p>
       {playlists?.length > 0 &&
         playlists?.map((game, index) => (
           <div key={index} className="mb-10">
-            <p className="text-white text-3xl font-bold tracking-[0.1em] mb-5 lg:text-left sm:text-center text-center">
+            <p className="text-white text-3xl font-bold tracking-[0.1em] mb-5 text-left">
               {game.name}
             </p>
-            <div className="grid grid-cols-1 gap-2 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-7">
+            <div className="grid grid-cols-2 gap-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-7">
               {game.playlists.map((item, index) => (
                 <div key={index} className="group relative">
                   <div className="flex flex-col justify-center rounded-lg shadow-lg w-full h-30 group-hover:cursor-pointer group-hover:brightness-50">

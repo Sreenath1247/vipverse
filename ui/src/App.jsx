@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import PlayedGames from "./pages/PlayedGames";
 import Upcoming from "./pages/Upcoming";
 import Playlist from "./pages/Playlist";
-import Library from "./pages/Library";
+import Allgames from "./pages/Allgames";
 import About from "./pages/About";
 
 const App = () => {
@@ -19,7 +19,7 @@ const App = () => {
           <Route path="/playlists" element={<Playlist />} />
           <Route path="/about" element={<About />} />
         </Route>
-        <Route path="/library" element={<Library />} />
+        <Route path="/allgames" element={<Allgames />} />
       </Routes>
     </Router>
   );
