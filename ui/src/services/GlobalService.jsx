@@ -75,6 +75,16 @@ const getUpcomingGames = async () => {
   }
 };
 
+const getPlaylists = async () => {
+  try {
+    const response = await axiosCreate.get("/playlists");
+    return response;
+  } catch (error) {
+    console.error("Error fetching games list:", error);
+    throw error;
+  }
+};
+
 export default {
   getAllGames,
   searchAllGames,
@@ -82,4 +92,5 @@ export default {
   getGamesList,
   searchGames,
   getUpcomingGames,
+  getPlaylists
 };

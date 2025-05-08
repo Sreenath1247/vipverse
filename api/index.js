@@ -49,19 +49,19 @@ async function init() {
   token = data.session?.access_token;
   const options = {
     db: {
-      schema: 'public',
+      schema: "public",
     },
     auth: {
       autoRefreshToken: true,
       persistSession: true,
-      detectSessionInUrl: true
+      detectSessionInUrl: true,
     },
     global: {
       headers: {
         Authorization: `Bearer ${data.session?.access_token}`,
       },
     },
-  }
+  };
   supabase = createClient(supabaseUrl, supabaseKey, options);
   if (error) {
     return res.status(401).json({ error: error.message });
@@ -71,7 +71,7 @@ async function init() {
 //get game list
 app.get("/api/gamelist", async (req, res) => {
   try {
-    let { data, error } = await supabase.from("gameinfo").select("*");
+    let { data, error } = await supabase.from("gameinfo").select();
     if (error) throw error;
     res.status(200).json(data);
   } catch (error) {
@@ -102,7 +102,7 @@ app.get("/api/search", async (req, res) => {
   try {
     let { data, error } = await supabase
       .from("gameinfo")
-      .select("*")
+      .select()
       .ilike("name", `%${searchTerm}%`);
     if (error) throw error;
     res.status(200).json(data);
@@ -112,16 +112,40 @@ app.get("/api/search", async (req, res) => {
   }
 });
 
-app.get("/api/upcoming", async (req,res) => {
+app.get("/api/upcoming", async (req, res) => {
   try {
-    let { data,error} = await supabase.from("upcoming").select("*");
-    if(error) throw error;
+    let { data, error } = await supabase.from("upcoming").select();
+    if (error) throw error;
     res.status(200).json(data);
-  } catch(error) {
+  } catch (error) {
     console.error("Error fetching upcoming games:", error.message);
     res.status(500).json({ error: "Error fetching upcoming games" });
   }
-})
+});
+
+app.get("/api/playlists", async (req, res) => {
+  try {
+    let { data, error } = await supabase.from("playlists").select().order('name', { ascending: true });
+    if (error) throw error;
+    const filteredData = data.map((item) => ({
+      name: item.name,
+      playlists: [{ name: item.playlistname, image: item.playlistimage }],
+    }));
+    const result = filteredData.reduce((acc, obj) => {
+      const existing = acc.find((item) => item.name === obj.name);
+      if (existing) {
+        existing.playlists = [...existing.playlists, ...obj.playlists];
+      } else {
+        acc.push({ ...obj });
+      }
+      return acc;
+    }, []);
+    res.status(200).json(result);
+  } catch (error) {
+    console.error("Error fetching upcoming games:", error.message);
+    res.status(500).json({ error: "Error fetching upcoming games" });
+  }
+});
 
 // Start server
 app.listen(port, () => {

@@ -6,6 +6,7 @@ const useGameStore = create((set) => ({
   gameImages: [],
   allGames: [],
   upcomingList: [],
+  playlists: [],
   loading: false,
   setLoading: (loading) => set({ loading }),
   getAllGames: async (page) => {
@@ -32,6 +33,10 @@ const useGameStore = create((set) => ({
   getUpcomingGames: async () => {
     const response = await GlobalService.getUpcomingGames();
     set({ upcomingList: response.data });
+  },
+  getPlaylists: async () => {
+    const response = await GlobalService.getPlaylists();
+    set({ playlists: response.data });
   },
 }));
 
