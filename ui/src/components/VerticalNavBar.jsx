@@ -25,7 +25,7 @@ export default function VerticalTabs({ setIsNavBarVisible }) {
           </li>
           <li className="mt-5">
             <NavLink
-              to="/playedgames"
+              to="/library"
               onClick={() => setIsNavBarVisible(false)}
               className={({ isActive }) =>
                 isActive
@@ -33,7 +33,7 @@ export default function VerticalTabs({ setIsNavBarVisible }) {
                   : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
               }
             >
-              PLAYED GAMES
+              LIBRARY
             </NavLink>
           </li>
           <li className="mt-5">

@@ -2,7 +2,9 @@ import React from "react";
 import Layout from "./pages/Layout";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
-import PlayedGames from "./pages/PlayedGames";
+import Library from "./pages/Library";
+import CompletedGames from "./pages/CompletedGames";
+import CurrentGames from "./pages/CurrentGames";
 import Upcoming from "./pages/Upcoming";
 import Playlist from "./pages/Playlist";
 import Allgames from "./pages/Allgames";
@@ -14,7 +16,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home />} />
-          <Route path="/playedgames" element={<PlayedGames />} />
+          <Route path="/library" element={<Library />}>
+            <Route path="/library/completed" element={<CompletedGames />}></Route>
+            <Route path="/library/currentlyplaying" element={<CurrentGames />}></Route>
+          </Route>
           <Route path="/upcoming" element={<Upcoming />} />
           <Route path="/playlists" element={<Playlist />} />
           <Route path="/about" element={<About />} />
