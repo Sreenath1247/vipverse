@@ -66,7 +66,7 @@ const SmallNavBar = ({ closeNavBar }) => {
           </li>
           <li className="">
             <NavLink
-              to="/playedgames"
+              to="/library"
               onClick={closeNavBar}
               className={({ isActive }) =>
                 isActive
@@ -74,7 +74,7 @@ const SmallNavBar = ({ closeNavBar }) => {
                   : "text-md text-gray-500 hover:text-white hover:cursor-pointer transition duration-500 font-bold"
               }
             >
-              PLAYED GAMES
+              LIBRARY
             </NavLink>
           </li>
           <li className="">

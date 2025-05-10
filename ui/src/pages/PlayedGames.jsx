@@ -3,8 +3,8 @@ import GameList from "./GameList";
 import useGameStore from "../store/useStore";
 import Loader from "../components/Loader";
 
-const CurrentGames = () => {
-  const { gameList, getGameList, loading, setLoading } = useGameStore();
+const PlayedGames = () => {
+    const { gameList, getGameList, loading, setLoading } = useGameStore();
 
   useEffect(() => {
     // const fetchData = async () => {
@@ -20,16 +20,15 @@ const CurrentGames = () => {
 
     // fetchData();
   }, []);
-
   return (
     <div className="grid h-full w-full lg:px-0 lg:pb-5 md:px-25 sm:px-12 px-5 pb-5">
       {/* {loading && <Loader />} */}
       <p className="text-white text-3xl font-extrabold tracking-[0.1em] mb-5">
-        Currently playing
+        Played games
       </p>
       {/* {gameList?.length > 0 && <GameList gameList={gameList} />} */}
     </div>
-  );
-};
+  )
+}
 
-export default CurrentGames;
+export default PlayedGames
