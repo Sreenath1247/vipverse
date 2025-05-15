@@ -81,8 +81,6 @@ const Header = () => {
     setIsNavBarVisible(false);
   };
 
-  console.log();
-
   return (
     <div className="relative">
       <div className="flex flex-row items-center lg:h-28 md:h-15 h-15 xl:px-13 lg:px-10 lg:py-7 sm:px-8 sm:py-5 px-3 justify-between space-x-5">
