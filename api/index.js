@@ -129,7 +129,7 @@ app.get("/api/playlists", async (req, res) => {
     if (error) throw error;
     const filteredData = data.map((item) => ({
       name: item.name,
-      playlists: [{ name: item.playlistname, image: item.playlistimage }],
+      playlists: [{ name: item.playlistname, image: item.playlistimage, watchUrl: item.playlisturl, listUrl: item.playlistfullurl }],
     }));
     const result = filteredData.reduce((acc, obj) => {
       const existing = acc.find((item) => item.name === obj.name);
