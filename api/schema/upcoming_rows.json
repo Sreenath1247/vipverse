@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Doom: The Dark Ages",
+    "image": "https://media.rawg.io/media/games/018/01897340a06b9ed8e92ed1cc1b1eecb9.jpg",
+    "date": "2025-05-15",
+    "gameId": 983381
+  },
+  {
+    "name": "Dune Awakening",
+    "image": "https://media.rawg.io/media/games/593/593c074cdf1ea15b8c9a2513676020e6.jpg",
+    "date": "2025-05-20",
+    "gameId": 840775
+  },
+  {
+    "name": "Elden Ring Nightreign",
+    "image": "https://media.rawg.io/media/games/a14/a143ef815d323a3000840fc774d834c7.jpg",
+    "date": "2025-05-30",
+    "gameId": 997548
+  },
+  {
+    "name": "MindsEye",
+    "image": "https://media.rawg.io/media/games/579/5793be6f79c71ad0074d13fe439bc144.jpg",
+    "date": "2025-06-10",
+    "gameId": 997553
+  },
+  {
+    "name": "The Alters",
+    "image": "https://media.rawg.io/media/games/457/457f5a7f204b1bb3dead55aed1b2738f.jpg",
+    "date": "2025-06-13",
+    "gameId": 801122
+  },
+  {
+    "name": "REMATCH (2025)",
+    "image": "https://media.rawg.io/media/screenshots/7f2/7f2fc0ecea075a42b1d030d3c67ab37d.jpg",
+    "date": "2025-06-19",
+    "gameId": 998669
+  },
+  {
+    "name": "Tony Hawk's Pro Skater 3 + 4",
+    "image": "https://media.rawg.io/media/games/fb5/fb5453ec554d23caa221a6c8c4fd9279.jpg",
+    "date": "2025-07-11",
+    "gameId": 998678
+  },
+  {
+    "name": "Shadow Labyrinth",
+    "image": "https://media.rawg.io/media/games/522/5227ddcdde2134c176630fa0af86e684.jpg",
+    "date": "2025-07-18",
+    "gameId": 417663
+  },
+  {
+    "name": "Wuchang: Fallen Feathers",
+    "image": "https://media.rawg.io/media/games/bce/bcee4b00b58e05d52b8bb032ff7117f4.jpg",
+    "date": "2025-07-24",
+    "gameId": 879565
+  },
+  {
+    "name": "Tales of the Shire: A The Lord of The Rings",
+    "image": "https://media.rawg.io/media/games/32d/32d05e08a7b667c23ea9fe019f6bff1d.jpg",
+    "date": "2025-07-29",
+    "gameId": 334622
+  },
+  {
+    "name": "Mafia: The Old Country",
+    "image": "https://media.rawg.io/media/screenshots/77f/77f3574b2c78d8685c40cf67b4384b2b.jpg",
+    "date": "2025-08-08",
+    "gameId": 987515
+  },
+  {
+    "name": "Metal Gear Solid Delta: Snake Eater",
+    "image": "https://media.rawg.io/media/games/1c0/1c0548b761f7c4e4c0da71172b3362bf.jpg",
+    "date": "2025-08-28",
+    "gameId": 961198
+  },
+  {
+    "name": "Lies of P: Overture",
+    "image": "https://media.rawg.io/media/screenshots/5dc/5dcb8e6b1cbaf4f107df19486d8af478.jpg",
+    "date": "2025-08-31",
+    "gameId": 997552
+  },
+  {
+    "name": "Hell is Us",
+    "image": "https://media.rawg.io/media/games/60b/60b7561ab47a7c0853ae983d419b47cb.jpg",
+    "date": "2025-09-04",
+    "gameId": 782261
+  },
+  {
+    "name": "Borderlands 4",
+    "image": "https://media.rawg.io/media/games/9cc/9ccb59a7c634091bc8a9b7978d4dc322.jpg",
+    "date": "2025-09-12",
+    "gameId": 988615
+  },
+  {
+    "name": "Directive 8020",
+    "image": "https://media.rawg.io/media/games/10d/10dd957940dbaedc77a08730995194c7.jpg",
+    "date": "2025-10-02",
+    "gameId": 881141
+  },
+  {
+    "name": "Vampire: The Masquerade - Bloodlines 2",
+    "image": "https://media.rawg.io/media/games/fb5/fb5e0fdb1f6bb0e8b5da5d08bb83a5fc.jpg",
+    "date": "2025-10-31",
+    "gameId": 303576
+  },
+  {
+    "name": "The Wolf Among Us 2",
+    "image": "https://media.rawg.io/media/games/845/84539f8f33fea2c753cca0ce3a6d168f.jpg",
+    "date": "2025-12-31",
+    "gameId": 51432
+  },
+  {
+    "name": "Hollow Knight: Silksong",
+    "image": "https://media.rawg.io/media/games/27c/27cd8b7dead05a870f8a514a9a1915ad.jpg",
+    "date": "2025-12-31",
+    "gameId": 292844
+  }
+]

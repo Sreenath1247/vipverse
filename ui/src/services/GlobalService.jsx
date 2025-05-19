@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosCreate = axios.create({
-  baseURL: "http://localhost:5050",
+  baseURL: "http://localhost:5050/api",
 });
 
 const axiosRawg = axios.create({
@@ -38,7 +38,7 @@ const searchAllGames = async (searchText) => {
 //Supabase calls
 const getGameImages = async () => {
   try {
-    const response = await axiosCreate.get(`/gameimages`);
+    const response = await axiosCreate.get(`/games/images`);
     return response;
   } catch (error) {
     console.error("Error fetching game images:", error);
@@ -47,7 +47,7 @@ const getGameImages = async () => {
 };
 const getGamesList = async () => {
   try {
-    const response = await axiosCreate.get("/gamelist");
+    const response = await axiosCreate.get("/games/list");
     return response;
   } catch (error) {
     console.error("Error fetching games list:", error);
@@ -56,7 +56,7 @@ const getGamesList = async () => {
 };
 const searchGames = async (query) => {
   try {
-    const response = await axiosCreate.get("/search", {
+    const response = await axiosCreate.get("/games/search", {
       params: { searchTerm: query },
     });
     return response;
@@ -67,7 +67,7 @@ const searchGames = async (query) => {
 };
 const getUpcomingGames = async () => {
   try {
-    const response = await axiosCreate.get("/upcoming");
+    const response = await axiosCreate.get("/games/upcoming");
     return response;
   } catch (error) {
     console.error("Error fetching games list:", error);
@@ -77,7 +77,7 @@ const getUpcomingGames = async () => {
 
 const getPlaylists = async () => {
   try {
-    const response = await axiosCreate.get("/playlists");
+    const response = await axiosCreate.get("/games/playlists");
     return response;
   } catch (error) {
     console.error("Error fetching games list:", error);

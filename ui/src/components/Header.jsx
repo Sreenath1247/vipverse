@@ -17,7 +17,7 @@ const Header = () => {
     const value = event.target.value.toLowerCase();
     setSearchValue(value);
     if (value) {
-      if (window.location.href.includes("/playedgames")) {
+      if (window.location.href.includes("/completed")) {
         try {
           setLoading(true);
           await searchGames(value);
@@ -27,7 +27,7 @@ const Header = () => {
           setLoading(false);
         }
       }
-      if (window.location.href.includes("/library")) {
+      if (window.location.href.includes("/allgames")) {
         if (value.length >= 3) {
           try {
             setLoading(true);
@@ -40,7 +40,7 @@ const Header = () => {
         }
       }
     } else {
-      if (window.location.href.includes("/playedgames")) {
+      if (window.location.href.includes("/completed")) {
         try {
           setLoading(true);
           await getGameList();
@@ -50,7 +50,7 @@ const Header = () => {
           setLoading(false);
         }
       }
-      if (window.location.href.includes("/library")) {
+      if (window.location.href.includes("/allgames")) {
         try {
           setLoading(true);
           await getAllGames();
@@ -65,10 +65,10 @@ const Header = () => {
 
   const clearSearch = async () => {
     setSearchValue("");
-    if (window.location.href.includes("/playedgames")) {
+    if (window.location.href.includes("/completed")) {
       await getGameList();
     }
-    if (window.location.href.includes("/library")) {
+    if (window.location.href.includes("/allgames")) {
       await getAllGames();
     }
   };

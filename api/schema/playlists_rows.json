@@ -1,0 +1,345 @@
+[
+  {
+    "name": "Alien",
+    "playlists": [
+      {
+        "name": "Alien: Isolation",
+        "image": "https://media.rawg.io/media/games/daa/daaee07fcb40744d90cf8142f94a241f.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=zPVBYMsfaAY&list=PLoXWMj242x-5dYcEHK4Beb4CPvQMwFW0O",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5dYcEHK4Beb4CPvQMwFW0O"
+      }
+    ]
+  },
+  {
+    "name": "A Plague Tale",
+    "playlists": [
+      {
+        "name": "A Plague Tale: Requiem",
+        "image": "https://media.rawg.io/media/games/cd0/cd074f3f6045297cda9ad077273c09b6.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=K9frJmFeby4&list=PLoXWMj242x-4y-b7MNhS7rmuQArca09g4",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4y-b7MNhS7rmuQArca09g4"
+      },
+      {
+        "name": "A Plague Tale: Innocence",
+        "image": "https://media.rawg.io/media/games/b4a/b4adf80c36e267b35acc3497ed2af19c.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=6oyB9scodLg&list=PLoXWMj242x-7QCIm3UWrEWIqFjT1_1o6h",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7QCIm3UWrEWIqFjT1_1o6h"
+      }
+    ]
+  },
+  {
+    "name": "Assassin's Creed",
+    "playlists": [
+      {
+        "name": "Assassin's Creed",
+        "image": "https://media.rawg.io/media/games/0bc/0bcc108295a244b488d5c25f7d867220.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=vISfIgogERY&list=PLoXWMj242x-6Am8_KWUJOZ7C2iUn_JV-r",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6Am8_KWUJOZ7C2iUn_JV-r"
+      },
+      {
+        "name": "Assassin's Creed Brotherhood",
+        "image": "https://media.rawg.io/media/games/116/116b93c6876a361a96b2eee3ee58ab13.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=Xw_vvIhaTao&list=PLoXWMj242x-4hLHxGsoK5bBSb59Ycqt8u",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4hLHxGsoK5bBSb59Ycqt8u"
+      },
+      {
+        "name": "Assassin's Creed II",
+        "image": "https://media.rawg.io/media/games/1be/1bed7fae69d1004c09dfe1101d5a3a94.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=MXxFM5HFqis&list=PLoXWMj242x-6NdpqRhUKcwYgjIj3yAI4U",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6NdpqRhUKcwYgjIj3yAI4U"
+      },
+      {
+        "name": "Assassin's Creed III",
+        "image": "https://media.rawg.io/media/games/275/2759da6fcaa8f81f21800926168c85f6.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=tE9EHCK6iEI&list=PLoXWMj242x-53wrdeYMZnLg5PP07LEyyC",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-53wrdeYMZnLg5PP07LEyyC"
+      },
+      {
+        "name": "Assassin's Creed Mirage",
+        "image": "https://media.rawg.io/media/games/fbd/fbd0128013b7965904be571e75fb30c0.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=EQlWT0DnTIs&list=PLoXWMj242x-4XwAGAKYr02x-iAC60xe0z",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4XwAGAKYr02x-iAC60xe0z"
+      },
+      {
+        "name": "Assassin's Creed Revelations",
+        "image": "https://media.rawg.io/media/games/193/19390fa5e75e9048b22c9a736cf9992f.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=kokEbUI4wYk&list=PLoXWMj242x-4nESBh-NrUJaFaXD-u4vlp",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4nESBh-NrUJaFaXD-u4vlp"
+      }
+    ]
+  },
+  {
+    "name": "Batman",
+    "playlists": [
+      {
+        "name": "Batman: Arkham Asylum",
+        "image": "https://media.rawg.io/media/games/d56/d564ee964eb3c17892b3b35dd607f836.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=77SSWFKOC0A&list=PLoXWMj242x-5QmbDJ8EpsxI2RZNjh_ddW",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5QmbDJ8EpsxI2RZNjh_ddW"
+      },
+      {
+        "name": "Batman: Arkham Origins",
+        "image": "https://media.rawg.io/media/games/fc3/fc30790a3b3c738d7a271b02c1e26dc2.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=AuptVbAXmfw&list=PLoXWMj242x-548G7GtOd42s59LG3beANu",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-548G7GtOd42s59LG3beANu"
+      },
+      {
+        "name": "Batman: Arkham Knight",
+        "image": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=bUvuOn6DYos&list=PLoXWMj242x-46ieSHe7RTLmVWdaoctD5H",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-46ieSHe7RTLmVWdaoctD5H"
+      },
+      {
+        "name": "Batman: Arkham City",
+        "image": "https://media.rawg.io/media/games/b5a/b5a1226bfd971284a735a4a0969086b3.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=w04DMA_TWBM&list=PLoXWMj242x-7kK5j5uCN7q9JtSK1yI7Wm",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7kK5j5uCN7q9JtSK1yI7Wm"
+      }
+    ]
+  },
+  {
+    "name": "Battlefield",
+    "playlists": [
+      {
+        "name": "Battlefield 1",
+        "image": "https://media.rawg.io/media/games/998/9980c4296f311d8bcc5b451ca51e4fe1.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=5wdfyxdVjfI&list=PLoXWMj242x-4i22qlWp6KWOCl20Zu7WdE",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4i22qlWp6KWOCl20Zu7WdE"
+      },
+      {
+        "name": "Battlefield V",
+        "image": "https://media.rawg.io/media/games/45b/45b57ed59de4b84effd8f6bc4b7bf515.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=Qi_-9vVzpwM&list=PLoXWMj242x-7TDGCXgPsLYfvoAUnlT965",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7TDGCXgPsLYfvoAUnlT965"
+      }
+    ]
+  },
+  {
+    "name": "Doom",
+    "playlists": [
+      {
+        "name": "DOOM Eternal",
+        "image": "https://media.rawg.io/media/games/3ea/3ea3c9bbd940b6cb7f2139e42d3d443f.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=d6ji9KiST5g&list=PLoXWMj242x-4xE_f6WuwYNlBwxzc2TjCg",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4xE_f6WuwYNlBwxzc2TjCg"
+      },
+      {
+        "name": "DOOM (2016)",
+        "image": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=2r4zkJZ8O5w&list=PLoXWMj242x-5nLggIfjaHBzmwNB7Or1z4",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5nLggIfjaHBzmwNB7Or1z4"
+      }
+    ]
+  },
+  {
+    "name": "Far Cry",
+    "playlists": [
+      {
+        "name": "Far Cry 6",
+        "image": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=IOoM9fzcfgc&list=PLoXWMj242x-43aaHEIxLMg1KlUM5Kc4yX",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-43aaHEIxLMg1KlUM5Kc4yX"
+      },
+      {
+        "name": "Far Cry 5",
+        "image": "https://media.rawg.io/media/games/bce/bce62fbc7cf74bf6a1a37340993ec148.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=jAQAkSR5UWs&list=PLoXWMj242x-5mOTgY6mSIXYqgVZ78NAV_",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5mOTgY6mSIXYqgVZ78NAV_"
+      }
+    ]
+  },
+  {
+    "name": "Forza Horizon",
+    "playlists": [
+      {
+        "name": "Forza Horizon 5",
+        "image": "https://media.rawg.io/media/games/082/082365507ff04d456c700157072d35db.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=4PlHIA_ydeM&list=PLoXWMj242x-5P7SbzLpvmR-SZRaXMkMW2",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5P7SbzLpvmR-SZRaXMkMW2"
+      },
+      {
+        "name": "Forza Horizon 4",
+        "image": "https://media.rawg.io/media/games/786/7863e587bac630de82fca50d799236a9.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=X01uZb_8jmk&list=PLoXWMj242x-7wOCUvD0LD5-fM_Q51aAPY",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7wOCUvD0LD5-fM_Q51aAPY"
+      }
+    ]
+  },
+  {
+    "name": "Halo",
+    "playlists": [
+      {
+        "name": "Halo Saga",
+        "image": "https://media.rawg.io/media/games/fc6/fc63fb73da1edb6e18d4387a971f18a2.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=OwloHSEOpGk&list=PLoXWMj242x-5teTI3TsNh7_aUvF9nP7gJ",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5teTI3TsNh7_aUvF9nP7gJ"
+      },
+      {
+        "name": "Halo Infinite",
+        "image": "https://media.rawg.io/media/games/e1f/e1ffbeb1bac25b19749ad285ca29e158.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=gc2mBwXGu6I&list=PLoXWMj242x-6cM_sIfFNg7WmRCiXxlZz5",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6cM_sIfFNg7WmRCiXxlZz5"
+      }
+    ]
+  },
+  {
+    "name": "Hellblade",
+    "playlists": [
+      {
+        "name": "Hellblade: Senua's Sacrifice",
+        "image": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=TBSQuSJtjds&list=PLoXWMj242x-7Ifr9hbmfd9yr6DjQwIreK",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7Ifr9hbmfd9yr6DjQwIreK"
+      }
+    ]
+  },
+  {
+    "name": "Hitman",
+    "playlists": [
+      {
+        "name": "Hitman 3",
+        "image": "https://media.rawg.io/media/games/126/126fbd5ceacddc6ad16fc96e50b1265b.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=QH5j_5ssrno&list=PLoXWMj242x-5FK78q5QOuwifVEX-nEe7B",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5FK78q5QOuwifVEX-nEe7B"
+      },
+      {
+        "name": "Hitman 2",
+        "image": "https://media.rawg.io/media/games/858/858c016de0cf7bc21a57dcc698a04a0c.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=Abb05YkTHIU&list=PLoXWMj242x-6Y65zQA427Ioy5KgEVf0nW",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6Y65zQA427Ioy5KgEVf0nW"
+      },
+      {
+        "name": "Hitman",
+        "image": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=8lM31KUbDgg&list=PLoXWMj242x-5ZkqGEo99RbhCKFOrjlTe4",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5ZkqGEo99RbhCKFOrjlTe4"
+      }
+    ]
+  },
+  {
+    "name": "Injustice",
+    "playlists": [
+      {
+        "name": "Injustice 2",
+        "image": "https://media.rawg.io/media/games/e42/e428e70c97064037326d7863a43a0454.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=2H9vA8xLHrA&list=PLoXWMj242x-6e02gQ3zXBFie-iZzjNll7",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6e02gQ3zXBFie-iZzjNll7"
+      }
+    ]
+  },
+  {
+    "name": "Need for Speed",
+    "playlists": [
+      {
+        "name": "Need for Speed: Most Wanted - A Criterion Game",
+        "image": "https://media.rawg.io/media/games/228/228e21229213695c8f6697a6b3387a2b.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=rvJ4j1IQlzg&list=PLoXWMj242x-611RN-3I_TODCGFLKfNgJE",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-611RN-3I_TODCGFLKfNgJE"
+      },
+      {
+        "name": "Need For Speed: Most Wanted",
+        "image": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=TOB87P7vbLI&list=PLoXWMj242x-6H8XIqI4sGZHuKxldqlJSk",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6H8XIqI4sGZHuKxldqlJSk"
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "playlists": [
+      {
+        "name": "Mad Max",
+        "image": "https://media.rawg.io/media/games/d7d/d7d33daa1892e2468cd0263d5dfc957e.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=K54vZTEbudg&list=PLoXWMj242x-41zOSwAJkXx8osp7MEeOgi",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-41zOSwAJkXx8osp7MEeOgi"
+      },
+      {
+        "name": "Psychonauts 2",
+        "image": "https://media.rawg.io/media/games/c3c/c3c536cc4d32623ba928020dfd39a648.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=mqsvmetV1yg&list=PLoXWMj242x-77a0RPiy7Lc_gvPtQouAZ8",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-77a0RPiy7Lc_gvPtQouAZ8"
+      },
+      {
+        "name": "Omno",
+        "image": "https://media.rawg.io/media/games/9db/9db640b04cc4ab7d34acbd2000ff72bd.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=aQwaTARNq4U&list=PLoXWMj242x-4rnALSV3IEDgJeOXTyr41G",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4rnALSV3IEDgJeOXTyr41G"
+      },
+      {
+        "name": "Raji: An Ancient Epic",
+        "image": "https://media.rawg.io/media/games/50a/50a8647c2bb13202ec663b20eb42554a.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=CjyBLgoauDg&list=PLoXWMj242x-5T0st-LoikegZpViwUJFqI",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5T0st-LoikegZpViwUJFqI"
+      },
+      {
+        "name": "I Am Fish",
+        "image": "https://media.rawg.io/media/games/deb/debed1495adeac69fd5f0be501ecae35.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=pp3EA37V0dI&list=PLoXWMj242x-4_X9azTzaSxwDX2NZ1q1sJ",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-4_X9azTzaSxwDX2NZ1q1sJ"
+      },
+      {
+        "name": "The Medium",
+        "image": "https://media.rawg.io/media/games/8f5/8f5c25901d96e709ea631599106eda1c.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=EYTjLGz0F3A&list=PLoXWMj242x-5eq9D97WoxcYkXDwdJtJJW",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5eq9D97WoxcYkXDwdJtJJW"
+      },
+      {
+        "name": "The Crew 2",
+        "image": "https://media.rawg.io/media/games/b49/b49e403e116e9734e95b4c88e5b2ae74.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=Y7idy_yzfX0&list=PLoXWMj242x-6N7ZurqNqNXG6uXfVA_hyx",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6N7ZurqNqNXG6uXfVA_hyx"
+      }
+    ]
+  },
+  {
+    "name": "Spider Man",
+    "playlists": [
+      {
+        "name": "Marvel's Spider-Man: Miles Morales",
+        "image": "https://media.rawg.io/media/games/048/048b46cdc66cbc7e235e1f359c2a77ec.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=ZyxIBr7e1Js&list=PLoXWMj242x-5a_nllp7tNfiPweC0nmkjC",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-5a_nllp7tNfiPweC0nmkjC"
+      }
+    ]
+  },
+  {
+    "name": "Tomb Raider",
+    "playlists": [
+      {
+        "name": "Rise of the Tomb Raider",
+        "image": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=vIqih4iqwBs&list=PLoXWMj242x-6ml-eVqpAp7p_pDiqUI3IR",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6ml-eVqpAp7p_pDiqUI3IR"
+      },
+      {
+        "name": "Shadow of the Tomb Raider",
+        "image": "https://media.rawg.io/media/games/7f6/7f6cd70ba2ad57053b4847c13569f2d8.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=vWr6XXPe1rI&list=PLoXWMj242x-6fnWVvp7fVFBENCEEMZIWq",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6fnWVvp7fVFBENCEEMZIWq"
+      },
+      {
+        "name": "Tomb Raider (2013)",
+        "image": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=B3fzX_4c3D4&list=PLoXWMj242x-7iW1BSO7OiojPeqXrftxSd",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7iW1BSO7OiojPeqXrftxSd"
+      }
+    ]
+  },
+  {
+    "name": "Uncharted 4",
+    "playlists": [
+      {
+        "name": "Uncharted 4: A Thief's End",
+        "image": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=Q94Kz1DMbJA&list=PLoXWMj242x-6rFk0IPO3I3NwzbCwRKvnh",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-6rFk0IPO3I3NwzbCwRKvnh"
+      },
+      {
+        "name": "Uncharted: The Lost Legacy",
+        "image": "https://media.rawg.io/media/games/560/56056a71c74f751552c9baedebf8f317.jpg",
+        "watchUrl": "https://www.youtube.com/watch?v=oRJmT-6dk-E&list=PLoXWMj242x-7td8XmVeoXzIWErfSuDpng",
+        "listUrl": "https://www.youtube.com/playlist?list=PLoXWMj242x-7td8XmVeoXzIWErfSuDpng"
+      }
+    ]
+  }
+]

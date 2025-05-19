@@ -1,0 +1,350 @@
+[
+  {
+    "gameId": 3556,
+    "name": "Alien: Isolation",
+    "image": "https://media.rawg.io/media/games/daa/daaee07fcb40744d90cf8142f94a241f.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58777,
+    "name": "DOOM Eternal",
+    "image": "https://media.rawg.io/media/games/3ea/3ea3c9bbd940b6cb7f2139e42d3d443f.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 2454,
+    "name": "DOOM (2016)",
+    "image": "https://media.rawg.io/media/games/587/587588c64afbff80e6f444eb2e46f9da.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 12536,
+    "name": "Hellblade: Senua's Sacrifice",
+    "image": "https://media.rawg.io/media/games/63f/63f0e68688cad279ed38cde931dbfcdb.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 59359,
+    "name": "A Plague Tale: Innocence",
+    "image": "https://media.rawg.io/media/games/b4a/b4adf80c36e267b35acc3497ed2af19c.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 616697,
+    "name": "A Plague Tale: Requiem",
+    "image": "https://media.rawg.io/media/games/cd0/cd074f3f6045297cda9ad077273c09b6.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 38,
+    "name": "Injustice 2",
+    "image": "https://media.rawg.io/media/games/e42/e428e70c97064037326d7863a43a0454.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 47594,
+    "name": "Raji: An Ancient Epic",
+    "image": "https://media.rawg.io/media/games/50a/50a8647c2bb13202ec663b20eb42554a.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 1030,
+    "name": "Limbo",
+    "image": "https://media.rawg.io/media/games/942/9424d6bb763dc38d9378b488603c87fa.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 1450,
+    "name": "INSIDE",
+    "image": "https://media.rawg.io/media/games/d5a/d5a24f9f71315427fa6e966fdd98dfa6.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 259932,
+    "name": "Omno",
+    "image": "https://media.rawg.io/media/games/9db/9db640b04cc4ab7d34acbd2000ff72bd.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 327260,
+    "name": "Twelve Minutes",
+    "image": "https://media.rawg.io/media/games/0f8/0f808c8ecd5134e76d0a60570f66e56a.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 4123,
+    "name": "Batman: Arkham Asylum",
+    "image": "https://media.rawg.io/media/games/d56/d564ee964eb3c17892b3b35dd607f836.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28623,
+    "name": "Batman: Arkham City",
+    "image": "https://media.rawg.io/media/games/b5a/b5a1226bfd971284a735a4a0969086b3.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 2235,
+    "name": "Batman: Arkham Origins",
+    "image": "https://media.rawg.io/media/games/fc3/fc30790a3b3c738d7a271b02c1e26dc2.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 3287,
+    "name": "Batman: Arkham Knight",
+    "image": "https://media.rawg.io/media/games/310/3106b0e012271c5ffb16497b070be739.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 264758,
+    "name": "DARQ",
+    "image": "https://media.rawg.io/media/games/1a5/1a569b378018de2b5adc60f242408933.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 622492,
+    "name": "Forza Horizon 5",
+    "image": "https://media.rawg.io/media/games/082/082365507ff04d456c700157072d35db.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58753,
+    "name": "Forza Horizon 4",
+    "image": "https://media.rawg.io/media/games/786/7863e587bac630de82fca50d799236a9.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28386,
+    "name": "Halo: Combat Evolved Anniversary",
+    "image": "https://media.rawg.io/media/games/ec0/ec0a3967cf6ac7c79feb73abd25d2630.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 395195,
+    "name": "Halo 2: Anniversary",
+    "image": "https://media.rawg.io/media/games/fc6/fc63fb73da1edb6e18d4387a971f18a2.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28589,
+    "name": "Halo 3",
+    "image": "https://media.rawg.io/media/games/982/982ff61d574fed5e416cb1867b40d9b0.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28595,
+    "name": "Halo Wars",
+    "image": "https://media.rawg.io/media/games/4b6/4b6b7816862aebb9df22b5b5a5d71190.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 50566,
+    "name": "Halo 3: ODST",
+    "image": "https://media.rawg.io/media/games/f8a/f8ac43db218f2c4396fa811a050591d7.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28613,
+    "name": "Halo: Reach",
+    "image": "https://media.rawg.io/media/games/045/0457f748c9492261ccb46147edf9c761.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28627,
+    "name": "Halo 4",
+    "image": "https://media.rawg.io/media/games/efd/efdc57a6d16ddf185e275c3cf065ac50.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 8444,
+    "name": "Halo 5: Guardians",
+    "image": "https://media.rawg.io/media/games/77f/77fb27e5b7ec6984f43a70a289376e6a.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 8433,
+    "name": "Halo Wars 2",
+    "image": "https://media.rawg.io/media/games/7da/7da8472b0003bd6fc435302ea4e3deb7.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 998,
+    "name": "Battlefield 1",
+    "image": "https://media.rawg.io/media/games/998/9980c4296f311d8bcc5b451ca51e4fe1.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58494,
+    "name": "Battlefield V",
+    "image": "https://media.rawg.io/media/games/45b/45b57ed59de4b84effd8f6bc4b7bf515.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 611184,
+    "name": "I Am Fish",
+    "image": "https://media.rawg.io/media/games/deb/debed1495adeac69fd5f0be501ecae35.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 5286,
+    "name": "Tomb Raider 2013",
+    "image": "https://media.rawg.io/media/games/021/021c4e21a1824d2526f925eff6324653.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 7689,
+    "name": "Rise of the Tomb Raider",
+    "image": "https://media.rawg.io/media/games/b45/b45575f34285f2c4479c9a5f719d972e.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 51329,
+    "name": "Shadow of the Tomb Raider",
+    "image": "https://media.rawg.io/media/games/7f6/7f6cd70ba2ad57053b4847c13569f2d8.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 10035,
+    "name": "Hitman",
+    "image": "https://media.rawg.io/media/games/16b/16b1b7b36e2042d1128d5a3e852b3b2f.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58654,
+    "name": "Hitman 2",
+    "image": "https://media.rawg.io/media/games/858/858c016de0cf7bc21a57dcc698a04a0c.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 452645,
+    "name": "Hitman 3",
+    "image": "https://media.rawg.io/media/games/126/126fbd5ceacddc6ad16fc96e50b1265b.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 440081,
+    "name": "The Medium",
+    "image": "https://media.rawg.io/media/games/8f5/8f5c25901d96e709ea631599106eda1c.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 257192,
+    "name": "Psychonauts 2",
+    "image": "https://media.rawg.io/media/games/c3c/c3c536cc4d32623ba928020dfd39a648.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 41498,
+    "name": "Need for Speed: Most Wanted - A Criterion Game",
+    "image": "https://media.rawg.io/media/games/228/228e21229213695c8f6697a6b3387a2b.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58890,
+    "name": "Need For Speed: Most Wanted",
+    "image": "https://media.rawg.io/media/games/41b/41ba37b6a3e706dc1d27d49afbf0f72a.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 29238,
+    "name": "The Crew 2",
+    "image": "https://media.rawg.io/media/games/b49/b49e403e116e9734e95b4c88e5b2ae74.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 23585,
+    "name": "Far Cry 5",
+    "image": "https://media.rawg.io/media/games/bce/bce62fbc7cf74bf6a1a37340993ec148.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 463723,
+    "name": "Far Cry 6",
+    "image": "https://media.rawg.io/media/games/5dd/5dd4d2dd986d2826800bc37fff64aa4f.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 452634,
+    "name": "Marvel's Spider-Man: Miles Morales",
+    "image": "https://media.rawg.io/media/games/048/048b46cdc66cbc7e235e1f359c2a77ec.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 4729,
+    "name": "Assassin's Creed",
+    "image": "https://media.rawg.io/media/games/0bc/0bcc108295a244b488d5c25f7d867220.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 28568,
+    "name": "Assassin's Creed II",
+    "image": "https://media.rawg.io/media/games/1be/1bed7fae69d1004c09dfe1101d5a3a94.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 10064,
+    "name": "Assassin's Creed Brotherhood",
+    "image": "https://media.rawg.io/media/games/116/116b93c6876a361a96b2eee3ee58ab13.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 13305,
+    "name": "Assassin's Creed III",
+    "image": "https://media.rawg.io/media/games/275/2759da6fcaa8f81f21800926168c85f6.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 4358,
+    "name": "Assassin's Creed Revelations",
+    "image": "https://media.rawg.io/media/games/193/19390fa5e75e9048b22c9a736cf9992f.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 845261,
+    "name": "Assassin's Creed Mirage",
+    "image": "https://media.rawg.io/media/games/fbd/fbd0128013b7965904be571e75fb30c0.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 3191,
+    "name": "Mad Max",
+    "image": "https://media.rawg.io/media/games/d7d/d7d33daa1892e2468cd0263d5dfc957e.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 2462,
+    "name": "Uncharted 4: A Thief's End",
+    "image": "https://media.rawg.io/media/games/709/709bf81f874ce5d25d625b37b014cb63.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 21926,
+    "name": "Uncharted: The Lost Legacy",
+    "image": "https://media.rawg.io/media/games/560/56056a71c74f751552c9baedebf8f317.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 769960,
+    "name": "Submerged: Hidden Depths",
+    "image": "https://media.rawg.io/media/screenshots/4a1/4a1a306f6fbe85e93bff948a98ba8493.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 7407,
+    "name": "Saints Row IV: Re-Elected",
+    "image": "https://media.rawg.io/media/games/b4e/b4ec8e98127914d0a38051f641dcf2f1.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 46220,
+    "name": "Scorn",
+    "image": "https://media.rawg.io/media/games/f8c/f8cc3b4834259f8a812ce77804bc12ed.jpg",
+    "isPlayed": 1
+  },
+  {
+    "gameId": 58751,
+    "name": "Halo Infinite",
+    "image": "https://media.rawg.io/media/games/e1f/e1ffbeb1bac25b19749ad285ca29e158.jpg",
+    "isPlayed": 1
+  }
+]
