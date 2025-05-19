@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosCreate = axios.create({
-  baseURL: "http://localhost:3000/api",
+  baseURL: "http://localhost:5050",
 });
 
 const axiosRawg = axios.create({
@@ -38,7 +38,7 @@ const searchAllGames = async (searchText) => {
 //Supabase calls
 const getGameImages = async () => {
   try {
-    const response = await axiosCreate.get(`/gamelist/images`);
+    const response = await axiosCreate.get(`/gameimages`);
     return response;
   } catch (error) {
     console.error("Error fetching game images:", error);

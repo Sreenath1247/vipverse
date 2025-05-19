@@ -17,7 +17,7 @@ const AutoSlide = ({ images }) => {
   return (
     <div>
       <div className="flex flex-col items-center w-full">
-        <p className="text-white bg-green-700 text-2xl w-full font-bold tracking-[0.2em] text-center rounded-t py-1 uppercase">
+        <p className="text-black text-2xl w-full font-bold tracking-[0.2em] text-center rounded-t py-1 uppercase" style={{background: "#ffab00"}}>
           {images[index]?.name}
         </p>
       </div>
